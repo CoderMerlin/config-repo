@@ -1,2 +1,14 @@
 neo: 
   name: dev is update this two update
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.23.235:3306/ECMember?useUnicode=yes&characterEncoding=UTF-8&useSSL=true
+    username: root
+    password: 1
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      max-active: 20
+      max-idle: 8
+      min-idle: 8
